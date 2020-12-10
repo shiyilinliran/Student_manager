@@ -56,7 +56,7 @@ public class AdminLoginFrame extends JFrame{
             JOptionPane.showMessageDialog(panel_center,resultEntity.getMessage());
             if(resultEntity.getCode()==0){
                 this.dispose();
-                new MainFrame();
+                new MainFrame("译霖霖");
             }else {
                 textField1.setText("");
                 textField2.setText("");
